@@ -1,6 +1,4 @@
-import React from 'react';
-import { Routes, Route, Outlet } from 'react-router-dom';
-import Header from './components/Header';
+import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Cart from './pages/Cart';
 import FullPizza from './pages/FullPizza';
