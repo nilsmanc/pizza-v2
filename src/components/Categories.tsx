@@ -1,7 +1,7 @@
 import React from 'react';
 type CategoriesProps = {
   value: number;
-  onChangeCategory: any;
+  onChangeCategory: (idx: number) => void;
 };
 const Categories: React.FC<CategoriesProps> = ({ value, onChangeCategory }) => {
   const categories = ['Все', 'Мясные', 'Вегетарианская', 'Гриль', 'Острая', 'Закрытые'];
