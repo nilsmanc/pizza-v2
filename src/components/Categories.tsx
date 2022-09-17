@@ -1,8 +1,10 @@
 import React from 'react';
+
 type CategoriesProps = {
   value: number;
   onChangeCategory: (idx: number) => void;
 };
+
 const categories = ['Все', 'Мясные', 'Вегетарианская', 'Гриль', 'Острая', 'Закрытые'];
 export const Categories: React.FC<CategoriesProps> = React.memo(({ value, onChangeCategory }) => {
   return (
