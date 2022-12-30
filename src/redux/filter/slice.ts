@@ -1,4 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
+
 import { FilterSliceState, Sort, SortPropertyEnum } from './types'
 
 const initialState: FilterSliceState = {

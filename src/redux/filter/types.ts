@@ -8,13 +8,13 @@ export enum SortPropertyEnum {
 }
 
 export type Sort = {
-  name: string;
-  sortProperty: SortPropertyEnum;
-};
+  name: string
+  sortProperty: SortPropertyEnum
+}
 
 export interface FilterSliceState {
-  searchValue: string;
-  categoryId: number;
-  currentPage: number;
-  sort: Sort;
+  searchValue: string
+  categoryId: number
+  currentPage: number
+  sort: Sort
 }

@@ -1,5 +1,6 @@
-import React from 'react';
-import styles from './NotFoundBlock.module.scss';
+import React from 'react'
+
+import styles from './NotFoundBlock.module.scss'
 
 export const NotFoundBlock: React.FC = () => {
   return (
@@ -13,5 +14,5 @@ export const NotFoundBlock: React.FC = () => {
         К сожалению данная страница отсутствует в нашем интернет-магазине
       </p>
     </div>
-  );
-};
+  )
+}

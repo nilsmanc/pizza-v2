@@ -1,14 +1,14 @@
-import React from 'react';
+import React from 'react'
 
 type CategoriesProps = {
-  value: number;
-  onChangeCategory: (idx: number) => void;
-};
+  value: number
+  onChangeCategory: (idx: number) => void
+}
 
-const categories = ['Все', 'Мясные', 'Вегетарианская', 'Гриль', 'Острая', 'Закрытые'];
+const categories = ['Все', 'Мясные', 'Вегетарианская', 'Гриль', 'Острая', 'Закрытые']
 export const Categories: React.FC<CategoriesProps> = React.memo(({ value, onChangeCategory }) => {
   return (
-    <div className="categories">
+    <div className='categories'>
       <ul>
         {categories.map((categoryName, i) => (
           <li key={i} onClick={() => onChangeCategory(i)} className={value === i ? 'active' : ''}>
@@ -17,5 +17,5 @@ export const Categories: React.FC<CategoriesProps> = React.memo(({ value, onChan
         ))}
       </ul>
     </div>
-  );
-});
+  )
+})

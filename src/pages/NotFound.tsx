@@ -1,6 +1,7 @@
-import React from 'react';
-import { NotFoundBlock } from '../components';
+import React from 'react'
 
-const NotFound: React.FC = () => <NotFoundBlock />;
+import { NotFoundBlock } from '../components'
 
-export default NotFound;
+const NotFound: React.FC = () => <NotFoundBlock />
+
+export default NotFound
